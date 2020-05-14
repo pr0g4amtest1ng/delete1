@@ -1,4 +1,11 @@
-.. role:: strike
-    :class: strike
-    
-:strike:`This text is crossed out`
+|ss| This text is crossed out |se|
+
+
+
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
