@@ -85,6 +85,4 @@ Validation
 |    5    |     64     |     4      |    2048    |      2     |     10     |  95.10  | 1.5683 |
 +---------+------------+------------+------------+------------+------------+---------+--------+
 
-As the accuracies and loss are coming nearly same in both cases. To simplify the network I've
-removed normalization from first layer and added batch normalizations to two of the maxout
-layers as before. The dropout I've kept as 0.5
+
