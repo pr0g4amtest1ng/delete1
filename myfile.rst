@@ -11,3 +11,8 @@ Hyperparameters Tuning
 --------
 Training
 --------
+
+I've set by mistakenly dropout as 0.2. Somewhere I've read dropout should be less for input
+channels. But I performed less dropout on weight vectors.
+
+**Learning rate**: 0.001
