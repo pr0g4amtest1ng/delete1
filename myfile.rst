@@ -8,9 +8,9 @@ arXiv:1302.4389_ **[stat.ML]**
 Hyperparameters Tuning
 ======================
 
-########
+--------
 Training
-########
+--------
 
 I've set by mistakenly dropout as 0.2. Somewhere I've read dropout should be less for input
 channels. But I performed less dropout on weight vectors.
@@ -49,9 +49,9 @@ channels. But I performed less dropout on weight vectors.
 |    5   |     64     |     4      |    2048    |      2     |     10     |  94.33  | 1.5911 |
 +--------+------------+------------+------------+------------+------------+---------+--------+
 
-##########
+----------
 Validation
-##########
+----------
 
 +---------+------------+-------------------------+-------------------------+---------+--------+
 |         |            |       Layer1            |       Layer2            |         |        |
@@ -89,9 +89,9 @@ As the accuracies and loss are coming nearly same in both cases. To simplify the
 removed normalization from first layer and added batch normalizations to two of the maxout
 layers as before. The dropout I've kept as 0.5
 
-########
+--------
 Training
-########
+--------
 
 +--------+------------+-------------------------+-------------------------+---------+--------+
 |        |            |       Layer1            |       Layer2            |         |        |
@@ -104,9 +104,9 @@ Training
 |   5    |     64     |     4      |    1024    |     2      |     10     |  90.77  | 1.6480 |
 +--------+------------+------------+------------+------------+------------+---------+--------+
 
-##########
+----------
 Validation
-##########
+----------
 
 +---------+------------+-------------------------+-------------------------+---------+--------+
 |         |            |       Layer1            |       Layer2            |         |        |
@@ -123,9 +123,9 @@ I believe with little tweak we can achieve above accuracies without much variant
 and validation.
 Now after increasing learning rate to 0.005
 
-########
+--------
 Training
-########
+--------
 
 +--------+------------+-------------------------+-------------------------+---------+--------+
 |        |            |       Layer1            |       Layer2            |         |        |
@@ -138,9 +138,9 @@ Training
 |   5    |     64     |     4      |    1024    |     2      |     10     |  97.44  | 1.5107 |
 +--------+------------+------------+------------+------------+------------+---------+--------+
 
-##########
+----------
 Validation
-##########
+----------
 
 +---------+------------+-------------------------+-------------------------+---------+--------+
 |         |            |       Layer1            |       Layer2            |         |        |
@@ -156,9 +156,9 @@ Validation
 Finally the hyperparameters are as in the commit. It has been trained further with whole training
 dataset with the following accuracies and loss.
 
-########
+--------
 Training
-########
+--------
 
 +--------+------------+-------------------------+-------------------------+---------+--------+
 |        |            |       Layer1            |       Layer2            |         |        |
